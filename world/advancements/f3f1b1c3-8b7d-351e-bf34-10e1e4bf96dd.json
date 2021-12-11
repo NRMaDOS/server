@@ -1,0 +1,88 @@
+{
+  "craftable_bundles_leather:recipes/bundle_leather": {
+    "criteria": {
+      "has_leather": "2021-12-10 22:30:52 +0100",
+      "has_string": "2021-12-10 22:30:52 +0100"
+    },
+    "done": true
+  },
+  "uncraftable_nether_wart_block:recipes/building_blocks/nether_wart": {
+    "criteria": {
+      "has_nether_wart_block": "2021-12-10 22:30:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_brown_mushroom": "2021-12-10 22:23:44 +0100"
+    },
+    "done": true
+  },
+  "craftable_notch_apples:recipes/building_blocks/craftable_notch_apples/notch_apple": {
+    "criteria": {
+      "has_apple": "2021-12-10 22:30:52 +0100",
+      "has_block": "2021-12-10 22:30:52 +0100"
+    },
+    "done": true
+  },
+  "craftable_bundles_rabbit_hide:recipes/bundle_rabbit_hide": {
+    "criteria": {
+      "has_rabbit_hide": "2021-12-10 22:30:52 +0100",
+      "has_string": "2021-12-10 22:30:52 +0100"
+    },
+    "done": true
+  },
+  "flint_to_gravel:recipes/building_blocks/gravel": {
+    "criteria": {
+      "has_flint": "2021-12-10 22:30:52 +0100"
+    },
+    "done": true
+  },
+  "craftable_name_tags:recipes/building_blocks/craftable_name_tags/name_tag": {
+    "criteria": {
+      "has_string": "2021-12-10 22:30:52 +0100",
+      "has_paper": "2021-12-10 22:30:52 +0100",
+      "has_iron": "2021-12-10 22:30:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2021-12-10 22:29:37 +0100"
+    },
+    "done": true
+  },
+  "uncraftable_ice:recipes/building_blocks/ice": {
+    "criteria": {
+      "has_packed_ice": "2021-12-10 22:30:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2021-12-10 22:23:44 +0100"
+    },
+    "done": true
+  },
+  "repurposed_structures:root": {
+    "criteria": {
+      "always": "2021-12-10 22:23:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:grove": "2021-12-10 22:28:35 +0100",
+      "minecraft:jagged_peaks": "2021-12-10 22:28:47 +0100",
+      "minecraft:frozen_peaks": "2021-12-10 22:27:55 +0100"
+    },
+    "done": false
+  },
+  "uncraftable_ice:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_blue_ice": "2021-12-10 22:30:52 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 2860
+}

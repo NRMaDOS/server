@@ -1,0 +1,229 @@
+---- Minecraft Crash Report ----
+// Hey, that tickles! Hehehe!
+
+Time: 10/12/2021, 20:34
+Description: Feature placement
+
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.levelgen.placement.PlacedFeature.m_191782_(net.minecraft.world.level.WorldGenLevel, net.minecraft.world.level.chunk.ChunkGenerator, java.util.Random, net.minecraft.core.BlockPos)" because the return value of "java.util.function.Supplier.get()" is null
+	at net.minecraft.world.level.levelgen.feature.structures.FeaturePoolElement.m_6791_(FeaturePoolElement.java:75) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.m_192416_(PoolElementStructurePiece.java:88) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.m_183269_(PoolElementStructurePiece.java:84) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at net.minecraft.world.level.levelgen.structure.StructureStart.m_7129_(StructureStart.java:54) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:mixin,re:classloading}
+	at net.minecraft.world.level.chunk.ChunkGenerator.m_196720_(ChunkGenerator.java:279) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:mixin,re:classloading,pl:mixin:APP:repurposed_structures.mixins.json:world.ChunkGeneratorAccessor,pl:mixin:A}
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-31.0.1-jre.jar%2320!:?] {}
+	at net.minecraft.world.level.chunk.ChunkGenerator.m_183372_(ChunkGenerator.java:278) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:mixin,re:classloading,pl:mixin:APP:repurposed_structures.mixins.json:world.ChunkGeneratorAccessor,pl:mixin:A}
+	at net.minecraft.world.level.chunk.ChunkStatus.m_187807_(ChunkStatus.java:135) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.world.level.chunk.ChunkStatus.m_187788_(ChunkStatus.java:262) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$20(ChunkMap.java:585) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-4.0.26.jar%2328!:?] {}
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$22(ChunkMap.java:583) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?] {}
+	at net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:58) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.minecraft.world.level.levelgen.feature.structures.FeaturePoolElement.m_6791_(FeaturePoolElement.java:75) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.m_192416_(PoolElementStructurePiece.java:88) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.m_183269_(PoolElementStructurePiece.java:84) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at net.minecraft.world.level.levelgen.structure.StructureStart.m_7129_(StructureStart.java:54) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:mixin,re:classloading}
+	at net.minecraft.world.level.chunk.ChunkGenerator.m_196720_(ChunkGenerator.java:279) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:mixin,re:classloading,pl:mixin:APP:repurposed_structures.mixins.json:world.ChunkGeneratorAccessor,pl:mixin:A}
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-31.0.1-jre.jar%2320!:?] {}
+	at net.minecraft.world.level.chunk.ChunkGenerator.m_183372_(ChunkGenerator.java:278) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:mixin,re:classloading,pl:mixin:APP:repurposed_structures.mixins.json:world.ChunkGeneratorAccessor,pl:mixin:A}
+	at net.minecraft.world.level.chunk.ChunkStatus.m_187807_(ChunkStatus.java:135) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.world.level.chunk.ChunkStatus.m_187788_(ChunkStatus.java:262) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$20(ChunkMap.java:585) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-4.0.26.jar%2328!:?] {}
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$22(ChunkMap.java:583) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?] {}
+-- Feature --
+Details:
+	Description: ResourceKey[minecraft:worldgen/structure_feature / repurposed_structures:mineshaft_crimson]
+Stacktrace:
+	at net.minecraft.world.level.chunk.ChunkGenerator.m_183372_(ChunkGenerator.java:278) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:mixin,re:classloading,pl:mixin:APP:repurposed_structures.mixins.json:world.ChunkGeneratorAccessor,pl:mixin:A}
+	at net.minecraft.world.level.chunk.ChunkStatus.m_187807_(ChunkStatus.java:135) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.world.level.chunk.ChunkStatus.m_187788_(ChunkStatus.java:262) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$20(ChunkMap.java:585) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-4.0.26.jar%2328!:?] {}
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$22(ChunkMap.java:583) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?] {}
+	at net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:58) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {}
+
+
+-- Generation --
+Details:
+	CenterX: -58
+	CenterZ: -71
+	Seed: 7896029684083447642
+Stacktrace:
+	at net.minecraft.world.level.chunk.ChunkGenerator.m_183372_(ChunkGenerator.java:278) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:mixin,re:classloading,pl:mixin:APP:repurposed_structures.mixins.json:world.ChunkGeneratorAccessor,pl:mixin:A}
+	at net.minecraft.world.level.chunk.ChunkStatus.m_187807_(ChunkStatus.java:135) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.world.level.chunk.ChunkStatus.m_187788_(ChunkStatus.java:262) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$20(ChunkMap.java:585) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-4.0.26.jar%2328!:?] {}
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$22(ChunkMap.java:583) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?] {}
+	at net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:58) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {}
+
+
+-- Chunk to be generated --
+Details:
+	Location: -58,-71
+	Position hash: -300647710778
+	Generator: net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator@75982009
+Stacktrace:
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$20(ChunkMap.java:585) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-4.0.26.jar%2328!:?] {}
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$22(ChunkMap.java:583) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?] {}
+	at net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:58) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {}
+
+
+-- Entity being ticked --
+Details:
+	Entity Type: minecraft:zombified_piglin (net.minecraft.world.entity.monster.ZombifiedPiglin)
+	Entity ID: 4135
+	Entity Name: Zombified Piglin
+	Entity's Exact location: -1021.06, 46.02, -1211.50
+	Entity's Block location: World: (-1022,46,-1212), Section: (at 2,14,4 in -64,2,-76; chunk contains blocks -1024,0,-1216 to -1009,255,-1201), Region: (-2,-3; contains chunks -64,-96 to -33,-65, blocks -1024,0,-1536 to -513,255,-1025)
+	Entity's Momentum: -0.05, -0.23, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: null
+Stacktrace:
+	at net.minecraft.world.level.Level.m_46653_(Level.java:490) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:313) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:293) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:868) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:328) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:808) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:668) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:258) ~[server-1.18-20211130.085255-srg.jar%2349!:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:833) [?:?] {}
+
+
+-- Affected level --
+Details:
+	All players: 2 total; [ServerPlayer['N4ns'/597, l='ServerLevel[world]', x=-1048.25, y=123.11, z=-1208.95], ServerPlayer['mihu2'/383, l='ServerLevel[world]', x=-1061.52, y=144.44, z=-1222.25]]
+	Chunk stats: 2256
+	Level dimension: minecraft:the_nether
+	Derived: true
+	Level spawn location: World: (-32,117,0), Section: (at 0,5,0 in -2,7,0; chunk contains blocks -32,0,0 to -17,255,15), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Level time: 13617 game time, 13617 day time
+	Level name: world
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Level weather: Rain time: 86909 (now: false), thunder time: 115758 (now: false)
+	Known server brands: forge
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+
+-- System Details --
+Details:
+	Minecraft Version: 1.18
+	Minecraft Version ID: 1.18
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.1, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 2510607360 bytes (2394 MiB) / 4294967296 bytes (4096 MiB) up to 4294967296 bytes (4096 MiB)
+	CPUs: 16
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 7 3700X 8-Core Processor             
+	Identifier: AuthenticAMD Family 23 Model 113 Stepping 0
+	Microarchitecture: Zen 2
+	Frequency (GHz): 3.60
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 16
+	Graphics card #0 name: AMD Radeon RX 5600 XT
+	Graphics card #0 vendor: Advanced Micro Devices, Inc. (0x1002)
+	Graphics card #0 VRAM (MB): 4095.00
+	Graphics card #0 deviceId: 0x731f
+	Graphics card #0 versionInfo: DriverVersion=27.20.22025.1006
+	Memory slot #0 capacity (MB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 3.00
+	Memory slot #0 type: DDR4
+	Virtual memory max (MB): 33464.16
+	Virtual memory used (MB): 28843.92
+	Swap memory total (MB): 17129.50
+	Swap memory used (MB): 934.80
+	JVM Flags: 1 total; -Xmx4G
+	Server Running: true
+	Player Count: 2 / 20; [ServerPlayer['mihu2'/383, l='ServerLevel[world]', x=-1061.52, y=144.44, z=-1222.25], ServerPlayer['N4ns'/597, l='ServerLevel[world]', x=-1048.25, y=123.11, z=-1208.95]]
+	Data Packs: vanilla, mod:seedfix, mod:repurposed_structures, mod:spark (incompatible), mod:forge, mod:lazydfu (incompatible), mod:ferritecore (incompatible), mod:clumps (incompatible), mod:aiimprovements, file/terralith-v2-0-4.zip
+	Is Modded: Definitely; Server brand changed to 'forge'
+	Type: Dedicated Server (map_server.txt)
+	ModLauncher: 9.0.7+91+master.8569cdf
+	ModLauncher launch target: forgeserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		 mixin PLUGINSERVICE 
+		 eventbus PLUGINSERVICE 
+		 object_holder_definalize PLUGINSERVICE 
+		 runtime_enum_extender PLUGINSERVICE 
+		 capability_token_subclass PLUGINSERVICE 
+		 accesstransformer PLUGINSERVICE 
+		 runtimedistcleaner PLUGINSERVICE 
+		 sync_fu TRANSFORMATIONSERVICE 
+		 mixin TRANSFORMATIONSERVICE 
+		 fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		javafml@null
+	Mod List: 
+		server-1.18-20211130.085255-srg.jar               |Minecraft                     |minecraft                     |1.18                |DONE      |Manifest: NOSIGNATURE
+		Amplified+Nether+1.0.1+_+Forge.jar                |Amplified Nether + Seed Fix   |seedfix                       |0.0NONE             |DONE      |Manifest: NOSIGNATURE
+		repurposed_structures_forge-4.0.5+1.18.jar        |Repurposed Structures         |repurposed_structures         |4.0.5+1.18          |DONE      |Manifest: NOSIGNATURE
+		spark-forge.jar                                   |spark                         |spark                         |1.6.3               |DONE      |Manifest: NOSIGNATURE
+		forge-1.18-38.0.16-universal.jar                  |Forge                         |forge                         |38.0.16             |DONE      |Manifest: 22:af:21:d8:19:82:7f:93:94:fe:2b:ac:b7:e4:41:57:68:39:87:b1:a7:5c:c6:44:f9:25:74:21:14:f5:0d:90
+		lazydfu-1.0-1.18+.jar                             |LazyDFU                       |lazydfu                       |0.1.3               |DONE      |Manifest: NOSIGNATURE
+		ferritecore-4.0.0-forge.jar                       |Ferrite Core                  |ferritecore                   |4.0.0               |DONE      |Manifest: 41:ce:50:66:d1:a0:05:ce:a1:0e:02:85:9b:46:64:e0:bf:2e:cf:60:30:9a:fe:0c:27:e0:63:66:9a:84:ce:8a
+		Clumps-forge-1.18-8.0.1.jar                       |Clumps                        |clumps                        |8.0.1               |DONE      |Manifest: NOSIGNATURE
+		AI-Improvements-1.18-0.4.0.jar                    |AI-Improvements               |aiimprovements                |0.4.0               |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 01c41199-3df0-46cf-8ec4-b6230526ae7a
+	FML: 38.0
+	Forge: net.minecraftforge:38.0.16
