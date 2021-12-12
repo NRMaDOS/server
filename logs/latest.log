@@ -1,183 +1,121 @@
-[00:01:45] [Server thread/INFO]: N4ns was doomed to fall by Zombie
-[00:04:07] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@db75421
-[00:04:07] [Server thread/INFO]: pineaple100[/83.23.229.95:40882] logged in with entity id 49709 at (377.5, 68.0, -4356.5)
-[00:04:07] [Server thread/INFO]: pineaple100 joined the game
-[00:04:45] [Server thread/INFO]: N4ns was shot by Skeleton
-[00:05:16] [Server thread/INFO]: [N4ns: Teleported pineaple100 to N4ns]
-[00:05:31] [Server thread/INFO]: [Aroolfie: Set own game mode to Spectator Mode]
-[00:06:05] [Server thread/INFO]: pineaple100 has made the advancement [Stone Age]
-[00:06:08] [Server thread/INFO]: [Aroolfie: Set own game mode to Survival Mode]
-[00:07:47] [Server thread/INFO]: [Jerex: Set own game mode to Spectator Mode]
-[00:09:17] [Server thread/INFO]: [Jerex: Set own game mode to Survival Mode]
-[00:09:26] [Server thread/INFO]: pineaple100 has made the advancement [Getting an Upgrade]
-[00:09:56] [Server thread/INFO]: pineaple100 has made the advancement [Monster Hunter]
-[00:10:24] [Server thread/INFO]: Aroolfie has made the advancement [Sweet Dreams]
-[00:13:14] [Server thread/INFO]: N4ns was slain by pineaple100
-[00:14:45] [Server thread/INFO]: pineaple100 was shot by Skeleton
-[00:15:02] [Server thread/INFO]: [Jerex: Set own game mode to Spectator Mode]
-[00:15:12] [Server thread/INFO]: [N4ns: Teleported pineaple100 to N4ns]
-[00:15:17] [Server thread/INFO]: [Jerex: Set own game mode to Survival Mode]
-[00:17:08] [Server thread/INFO]: N4ns was shot by Skeleton
-[00:18:19] [Server thread/INFO]: pineaple100 has made the advancement [Acquire Hardware]
-[00:18:20] [Server thread/INFO]: N4ns was shot by Skeleton
-[00:18:57] [Server thread/INFO]: pineaple100 has made the advancement [Not Today, Thank You]
-[00:18:58] [Server thread/INFO]: pineaple100 was slain by Spider
-[00:19:30] [Server thread/INFO]: [N4ns: Teleported pineaple100 to N4ns]
-[00:20:07] [Server thread/INFO]: N4ns was shot by Skeleton
-[00:20:40] [Server thread/INFO]: pineaple100 hit the ground too hard whilst trying to escape Zombie
-[00:20:59] [Server thread/INFO]: [N4ns: Teleported pineaple100 to N4ns]
-[00:21:16] [Server thread/INFO]: [Jerex: Set own game mode to Spectator Mode]
-[00:21:33] [Server thread/INFO]: [Jerex: Set own game mode to Survival Mode]
-[00:23:41] [Server thread/INFO]: [N4ns: Teleported N4ns to pineaple100]
-[00:23:41] [Server thread/WARN]: N4ns moved too quickly! 55.17019710794722,-49.75081292125532,62.62224101554966
-[00:26:54] [Server thread/INFO]: Jerex lost connection: Disconnected
-[00:26:54] [Server thread/INFO]: Jerex left the game
-[00:27:03] [Server thread/INFO]: N4ns was slain by pineaple100
-[00:27:33] [Server thread/INFO]: Aroolfie lost connection: Disconnected
-[00:27:33] [Server thread/INFO]: Aroolfie left the game
-[00:27:39] [Server thread/INFO]: pineaple100 fell out of the world
-[00:27:39] [Server thread/INFO]: [N4ns: Killed pineaple100]
-[00:27:55] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=336, y=69, z=-4337} BlockPos{x=336, y=67, z=-4338}
-[00:27:55] [Server thread/INFO]: [N4ns: Teleported N4ns to pineaple100]
-[00:27:55] [Server thread/WARN]: N4ns moved too quickly! -52.02118176825627,2.1661092609382138,11.630461857153932
-[00:27:57] [Server thread/INFO]: [N4ns: Teleported N4ns to pineaple100]
-[00:27:58] [Server thread/INFO]: [N4ns: Teleported N4ns to pineaple100]
-[00:27:59] [Server thread/INFO]: [N4ns: Teleported N4ns to pineaple100]
-[00:27:59] [Server thread/INFO]: [N4ns: Teleported N4ns to pineaple100]
-[00:28:09] [Server thread/INFO]: [N4ns: Teleported N4ns to 247.922009, 75.000000, -4320.093639]
-[00:28:09] [Server thread/WARN]: N4ns moved too quickly! -81.37791509137003,7.0,15.180897592548718
-[00:28:09] [Server thread/WARN]: N4ns moved too quickly! -81.37791509137003,7.0,15.180897592548718
-[00:28:09] [Server thread/WARN]: N4ns moved too quickly! -81.37791509137003,7.0,15.180897592548718
-[00:28:09] [Server thread/WARN]: N4ns moved too quickly! -81.37791509137003,7.0,15.180897592548718
-[00:28:12] [Server thread/INFO]: [N4ns: Teleported N4ns to 171.956486, 119.000000, -4347.042258]
-[00:28:14] [Server thread/INFO]: [N4ns: Teleported N4ns to 148.875000, 67.000000, -4423.125000]
-[00:28:14] [Server thread/INFO]: [N4ns: Teleported N4ns to 149.281807, 74.000000, -4422.571573]
-[00:28:15] [Server thread/INFO]: [N4ns: Teleported N4ns to 163.875000, 68.000000, -4508.125000]
-[00:28:15] [Server thread/WARN]: N4ns moved too quickly! 14.606932556667886,-6.0,-85.55342736151033
-[00:28:15] [Server thread/WARN]: N4ns moved too quickly! 14.606932556667886,-6.0,-85.55342736151033
-[00:28:15] [Server thread/WARN]: N4ns moved too quickly! 14.606932556667886,-6.0,-85.55342736151033
-[00:28:16] [Server thread/INFO]: [N4ns: Teleported N4ns to 97.898269, 67.000000, -4541.179986]
-[00:28:16] [Server thread/WARN]: N4ns moved too quickly! -65.97673070731122,-1.0,-33.05498644128511
-[00:28:16] [Server thread/WARN]: N4ns moved too quickly! -65.97673070731122,-1.0,-33.05498644128511
-[00:28:16] [Server thread/INFO]: [N4ns: Teleported N4ns to 55.224587, 84.000000, -4479.385736]
-[00:28:16] [Server thread/WARN]: N4ns moved too quickly! -42.67368239739799,17.0,61.79425033026109
-[00:28:17] [Server thread/INFO]: [N4ns: Teleported N4ns to -2.305721, 17.000000, -4518.584581]
-[00:28:17] [Server thread/WARN]: N4ns moved too quickly! -57.53030781223518,-67.0,-39.198845133782925
-[00:28:17] [Server thread/INFO]: [N4ns: Teleported N4ns to -25.509346, -19.995099, -4532.875000]
-[00:28:17] [Server thread/WARN]: N4ns moved too quickly! -23.203625280126523,-36.995099003767216,-14.290418755193059
-[00:28:18] [Server thread/INFO]: [N4ns: Teleported N4ns to -26.007553, -17.000000, -4530.125000]
-[00:28:18] [Server thread/INFO]: [N4ns: Teleported N4ns to -23.496107, -20.000000, -4532.875000]
-[00:28:19] [Server thread/INFO]: [N4ns: Teleported N4ns to -55.842125, -7.937993, -4590.651234]
-[00:28:19] [Server thread/WARN]: N4ns moved too quickly! -32.338142382356,12.062006834874246,-58.196347976768266
-[00:28:20] [Server thread/INFO]: [N4ns: Teleported N4ns to -39.142516, 51.412092, -4635.828489]
-[00:28:20] [Server thread/WARN]: N4ns moved too quickly! 16.749502431549388,60.41209180936106,-45.05901856125547
-[00:28:20] [Server thread/WARN]: N4ns moved too quickly! 16.777039954290856,60.41209180936106,-45.014473400635325
-[00:28:20] [Server thread/INFO]: [N4ns: Teleported N4ns to -59.680274, -8.939219, -4591.389620]
-[00:28:20] [Server thread/WARN]: N4ns moved too quickly! -20.53775842561717,-60.27509639862907,44.43886858524729
-[00:28:21] [Server thread/INFO]: [N4ns: Teleported N4ns to -62.670394, -10.592547, -4589.714288]
-[00:28:21] [Server thread/INFO]: [N4ns: Teleported N4ns to -41.077520, 55.760927, -4632.505233]
-[00:28:24] [Server thread/INFO]: [N4ns: Teleported N4ns to -69.432036, -12.000000, -4593.147314]
-[00:28:24] [Server thread/WARN]: N4ns moved too quickly! -28.221837587419834,-66.36092652460623,39.50258869938716
-[00:28:25] [Server thread/INFO]: [N4ns: Teleported N4ns to -124.165087, 9.333419, -4518.564659]
-[00:28:25] [Server thread/WARN]: N4ns moved too quickly! -54.73305068761081,21.333418661742115,74.58265551079057
-[00:28:25] [Server thread/WARN]: N4ns moved too quickly! -54.73305068761081,21.333418661742115,74.58265551079057
-[00:28:26] [Server thread/INFO]: [N4ns: Teleported N4ns to -149.456973, -4.472128, -4499.284025]
-[00:28:26] [Server thread/WARN]: N4ns moved too quickly! -25.29188644657681,-12.472127766764743,19.280633551011306
-[00:28:26] [Server thread/WARN]: N4ns moved too quickly! -25.29188644657681,-12.472127766764743,19.280633551011306
-[00:28:26] [Server thread/INFO]: [N4ns: Teleported N4ns to -162.320906, 14.701923, -4560.654202]
-[00:28:26] [Server thread/WARN]: N4ns moved too quickly! -12.71263053833107,19.334787990492153,-61.370176733505104
-[00:28:26] [Server thread/WARN]: N4ns moved too quickly! -12.71263053833107,19.334787990492153,-61.370176733505104
-[00:28:26] [Server thread/WARN]: N4ns moved too quickly! -12.71263053833107,19.334787990492153,-61.370176733505104
-[00:28:27] [Server thread/INFO]: [N4ns: Teleported N4ns to -164.783201, 14.007303, -4562.011453]
-[00:28:28] [Server thread/INFO]: [N4ns: Teleported N4ns to -126.125000, 10.000000, -4523.767121]
-[00:28:28] [Server thread/WARN]: N4ns moved too quickly! 38.482495685561474,-4.0,37.79669192759138
-[00:28:28] [Server thread/WARN]: N4ns moved too quickly! 38.49679897811771,-4.0,37.77055818538247
-[00:28:28] [Server thread/INFO]: [N4ns: Teleported N4ns to -121.828587, 6.000000, -4522.432094]
-[00:28:29] [Server thread/INFO]: [N4ns: Teleported N4ns to -154.153106, -6.726768, -4492.494709]
-[00:28:29] [Server thread/WARN]: N4ns moved too quickly! -32.68324832429491,-12.668105163351656,29.934134584485037
-[00:28:30] [Server thread/INFO]: [N4ns: Teleported N4ns to -121.512449, 5.515733, -4528.657625]
-[00:28:30] [Server thread/WARN]: N4ns moved too quickly! 32.658830631091135,12.515733132443849,-36.1629165014765
-[00:28:30] [Server thread/WARN]: N4ns moved too quickly! 32.68735998676003,12.515733132443849,-36.1629165014765
-[00:28:30] [Server thread/INFO]: [N4ns: Teleported N4ns to -119.610428, 3.000000, -4528.043261]
-[00:28:31] [Server thread/INFO]: [N4ns: Teleported N4ns to -113.163991, -2.000000, -4517.019102]
-[00:28:31] [Server thread/WARN]: N4ns moved too quickly! 5.961834528262244,-5.0,11.024159436787158
-[00:28:31] [Server thread/INFO]: [N4ns: Teleported N4ns to -111.969430, -4.000000, -4520.838167]
-[00:28:32] [Server thread/INFO]: [N4ns: Teleported N4ns to -116.392406, 1.875658, -4528.231782]
-[00:28:32] [Server thread/WARN]: N4ns moved too quickly! -4.568212957580997,5.875657572207562,-7.393615493404468
-[00:28:32] [Server thread/INFO]: [N4ns: Teleported N4ns to -134.130369, -5.687749, -4471.454055]
-[00:28:32] [Server thread/WARN]: N4ns moved too quickly! -17.974205272714087,-7.395071902830232,56.777727046373
-[00:28:32] [Server thread/WARN]: N4ns moved too quickly! -17.974205272714087,-7.395071902830232,56.777727046373
-[00:28:33] [Server thread/INFO]: [N4ns: Teleported N4ns to -133.957039, -6.489221, -4470.041250]
-[00:28:34] [Server thread/INFO]: [N4ns: Teleported N4ns to -134.260303, -7.000000, -4464.159263]
-[00:28:34] [Server thread/INFO]: [N4ns: Teleported N4ns to -138.156260, -8.998510, -4473.332799]
-[00:28:34] [Server thread/WARN]: N4ns moved too quickly! -3.8158234841110925,-1.9985099999292295,-9.253669176389849
-[00:28:35] [Server thread/INFO]: [N4ns: Teleported N4ns to -223.343205, -9.651683, -4478.206432]
-[00:28:35] [Server thread/WARN]: N4ns moved too quickly! -84.83430316176182,-0.6103190360010089,-4.711792923019857
-[00:28:35] [Server thread/WARN]: N4ns moved too quickly! -84.83430316176182,-0.6103190360010089,-4.711792923019857
-[00:28:35] [Server thread/WARN]: N4ns moved too quickly! -84.83430316176182,-0.6103190360010089,-4.711792923019857
-[00:28:35] [Server thread/INFO]: [N4ns: Teleported N4ns to -144.172509, -10.608896, -4468.264476]
-[00:28:36] [Server thread/INFO]: [N4ns: Teleported N4ns to -142.414972, -9.598153, -4470.441172]
-[00:28:37] [Server thread/INFO]: [N4ns: Teleported N4ns to -224.673738, -12.785706, -4482.651224]
-[00:28:37] [Server thread/WARN]: N4ns moved too quickly! -82.05564181951613,-1.7857063014046837,-12.087605575702582
-[00:28:37] [Server thread/INFO]: [N4ns: Teleported N4ns to -226.288135, -12.020977, -4485.646310]
-[00:28:38] [Server thread/INFO]: [N4ns: Teleported N4ns to -223.085431, -12.995099, -4485.791469]
-[00:28:38] [Server thread/INFO]: [N4ns: Teleported N4ns to -303.442741, -22.588383, -4522.501959]
-[00:28:38] [Server thread/WARN]: N4ns moved too quickly! -80.33579924244944,-9.588382761469589,-36.14535094473649
-[00:28:38] [Server thread/WARN]: N4ns moved too quickly! -80.33579924244944,-9.588382761469589,-36.14535094473649
-[00:28:38] [Server thread/WARN]: N4ns moved too quickly! -80.33579924244944,-9.588382761469589,-36.14535094473649
-[00:28:39] [Server thread/INFO]: [N4ns: Teleported N4ns to -224.010168, -13.120135, -4491.346184]
-[00:28:39] [Server thread/WARN]: N4ns moved too quickly! 79.43257231081009,13.53159276477952,31.155775508802435
-[00:28:39] [Server thread/WARN]: N4ns moved too quickly! 79.43257231081009,13.53159276477952,31.155775508802435
-[00:28:40] [Server thread/INFO]: [N4ns: Teleported N4ns to -210.309561, -22.000000, -4499.742044]
-[00:28:40] [Server thread/WARN]: N4ns moved too quickly! 13.788551196756885,-8.0,-8.229678912526651
-[00:28:40] [Server thread/WARN]: N4ns moved too quickly! 13.788551196756885,-8.0,-8.229678912526651
-[00:28:40] [Server thread/INFO]: [N4ns: Teleported N4ns to -216.509761, -13.000000, -4483.665211]
-[00:28:40] [Server thread/WARN]: N4ns moved too quickly! -5.75013555228179,9.0,16.076832866869154
-[00:28:41] [Server thread/INFO]: [N4ns: Teleported N4ns to -212.440877, -16.583577, -4496.171238]
-[00:28:41] [Server thread/WARN]: N4ns moved too quickly! 4.068884291886178,-3.5835771856417296,-12.50602654332215
-[00:28:46] [Server thread/INFO]: [N4ns: Teleported N4ns to pineaple100]
-[00:28:54] [Server thread/INFO]: [N4ns: Teleported N4ns to pineaple100]
-[00:28:56] [Server thread/INFO]: [N4ns: Teleported N4ns to 208.517677, 68.000000, -4301.986661]
-[00:29:03] [Server thread/INFO]: [N4ns: Teleported N4ns to 161.922473, 116.000000, -4276.056979]
-[00:29:03] [Server thread/WARN]: N4ns moved too quickly! -43.10304552259322,48.0,22.99812359708085
-[00:29:04] [Server thread/INFO]: [N4ns: Teleported N4ns to 106.406343, 99.000000, -4197.152530]
-[00:29:04] [Server thread/WARN]: N4ns moved too quickly! -55.516129726199026,-17.0,78.904449559167
-[00:29:07] [Server thread/INFO]: [N4ns: Teleported N4ns to 61.875000, 32.047157, -4249.875000]
-[00:29:07] [Server thread/WARN]: N4ns moved too quickly! -44.531343041962785,-66.952842794611,-52.72247041239734
-[00:29:07] [Server thread/WARN]: N4ns moved too quickly! -44.531343041962785,-66.952842794611,-52.72247041239734
-[00:29:07] [Server thread/WARN]: N4ns moved too quickly! -44.531343041962785,-66.952842794611,-52.72247041239734
-[00:29:09] [Server thread/INFO]: [N4ns: Teleported N4ns to 3.810723, 75.000000, -4314.252703]
-[00:29:09] [Server thread/WARN]: N4ns moved too quickly! -57.87992846869477,43.0,-64.56205154320742
-[00:29:09] [Server thread/WARN]: N4ns moved too quickly! -57.88460294898176,43.0,-64.55737706291984
-[00:29:09] [Server thread/WARN]: N4ns moved too quickly! -57.88460294898176,43.0,-64.55737706291984
-[00:29:09] [Server thread/INFO]: [N4ns: Teleported N4ns to 2.100206, 71.021341, -4322.398862]
-[00:29:10] [Server thread/INFO]: [N4ns: Teleported N4ns to 47.888036, 62.000000, -4321.729087]
-[00:29:10] [Server thread/WARN]: N4ns moved too quickly! 46.28389716385874,-9.0,1.1737205987310517
-[00:29:10] [Server thread/INFO]: [N4ns: Teleported N4ns to 39.553791, 105.044251, -4250.875000]
-[00:29:10] [Server thread/WARN]: N4ns moved too quickly! -8.350031111348883,43.04425106235074,70.83829989376682
-[00:29:10] [Server thread/WARN]: N4ns moved too quickly! -8.360045968429091,43.04425106235074,70.8282850366868
-[00:29:11] [Server thread/INFO]: [N4ns: Teleported N4ns to 60.717627, 143.000000, -4332.125000]
-[00:29:23] [Server thread/INFO]: [N4ns: Teleported N4ns to 50.001613, 138.000000, -4351.390046]
-[00:29:51] [Server thread/INFO]: [N4ns: Teleported 20 entities to N4ns]
-[00:30:03] [Server thread/INFO]: [N4ns: Teleported N4ns to pineaple100]
-[00:30:03] [Server thread/WARN]: N4ns moved too quickly! 169.12037313714666,-31.246800019478798,-41.81610114925752
-[00:30:03] [Server thread/WARN]: N4ns moved too quickly! 169.12037313714666,-31.246800019478798,-41.81610114925752
-[00:30:03] [Server thread/WARN]: N4ns moved too quickly! 169.12037313714666,-31.246800019478798,-41.81610114925752
-[00:30:03] [Server thread/WARN]: N4ns moved too quickly! 169.12037313714666,-31.246800019478798,-41.81610114925752
-[00:30:05] [Server thread/INFO]: [N4ns: Teleported 32 entities to N4ns]
-[00:30:13] [Server thread/INFO]: [N4ns: Teleported 8 entities to N4ns]
-[00:31:06] [Server thread/INFO]: [N4ns: Removed 94 items from player N4ns]
-[00:31:07] [Server thread/INFO]: N4ns lost connection: Disconnected
-[00:31:07] [Server thread/INFO]: N4ns left the game
-[00:31:17] [Server thread/INFO]: pineaple100 lost connection: Disconnected
-[00:31:17] [Server thread/INFO]: pineaple100 left the game
-[00:31:18] [Server thread/INFO]: Stopping server
-[00:31:18] [Server thread/INFO]: Saving players
-[00:31:18] [Server thread/INFO]: Saving worlds
-[00:31:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:31:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[00:31:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[00:31:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:31:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:31:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:31:18] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:49:27] [main/INFO]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 38.0.16, --fml.mcVersion, 1.18, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20211130.085255]
+[12:49:27] [main/INFO]: ModLauncher 9.0.7+91+master.8569cdf starting: java version 17.0.1 by Oracle Corporation
+[12:49:27] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Cosmo/AppData/Roaming/.minecraft/server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2318! Service=ModLauncher Env=SERVER
+[12:49:27] [main/INFO]: Found mod file AI-Improvements-1.18-0.4.0.jar of type MOD with locator {mods folder locator at C:\Users\Cosmo\AppData\Roaming\.minecraft\server\mods}
+[12:49:27] [main/INFO]: Found mod file Amplified+Nether+1.0.1+_+Forge.jar of type MOD with locator {mods folder locator at C:\Users\Cosmo\AppData\Roaming\.minecraft\server\mods}
+[12:49:27] [main/INFO]: Found mod file Clumps-forge-1.18-8.0.1.jar of type MOD with locator {mods folder locator at C:\Users\Cosmo\AppData\Roaming\.minecraft\server\mods}
+[12:49:27] [main/INFO]: Found mod file ferritecore-4.0.0-forge.jar of type MOD with locator {mods folder locator at C:\Users\Cosmo\AppData\Roaming\.minecraft\server\mods}
+[12:49:27] [main/INFO]: Found mod file lazydfu-1.0-1.18+.jar of type MOD with locator {mods folder locator at C:\Users\Cosmo\AppData\Roaming\.minecraft\server\mods}
+[12:49:27] [main/INFO]: Found mod file repurposed_structures_forge-4.0.5+1.18.jar of type MOD with locator {mods folder locator at C:\Users\Cosmo\AppData\Roaming\.minecraft\server\mods}
+[12:49:27] [main/INFO]: Found mod file spark-forge.jar of type MOD with locator {mods folder locator at C:\Users\Cosmo\AppData\Roaming\.minecraft\server\mods}
+[12:49:27] [main/INFO]: Found mod file fmlcore-1.18-38.0.16.jar of type LIBRARY with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4721d212
+[12:49:27] [main/INFO]: Found mod file javafmllanguage-1.18-38.0.16.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4721d212
+[12:49:27] [main/INFO]: Found mod file mclanguage-1.18-38.0.16.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4721d212
+[12:49:27] [main/INFO]: Found mod file server-1.18-20211130.085255-srg.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4721d212
+[12:49:27] [main/INFO]: Found mod file forge-1.18-38.0.16-universal.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4721d212
+[12:49:28] [main/INFO]: Sync_Fu preparing...
+[12:49:28] [main/INFO]: Prepping fu_add...
+[12:49:28] [main/WARN]: Failed to find FastUtil jar; this WILL result in more exceptions
+[12:49:28] [main/INFO]: Sync_Fu found fu...
+[12:49:28] [main/INFO]: Compatibility level set to JAVA_17
+[12:49:28] [main/ERROR]: Mixin config clumps.mixins.json does not specify "minVersion" property
+[12:49:28] [main/INFO]: Launching target 'forgeserver' with arguments []
+[12:49:31] [main/INFO]: Lazy DFU
+[12:49:32] [modloading-worker-0/INFO]: Loaded seedfix v1.0 by Justsnoopy30!
+[12:49:32] [modloading-worker-0/INFO]: Forge mod loading, version 38.0.16, for MC 1.18 with MCP 20211130.085255
+[12:49:32] [modloading-worker-0/INFO]: MinecraftForge v38.0.16 Initialized
+[12:49:33] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[12:49:33] [Forge Version Check/INFO]: [forge] Found status: BETA_OUTDATED Current: 38.0.16 Target: 38.0.17
+[12:49:33] [Forge Version Check/INFO]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.18
+[12:49:33] [Forge Version Check/INFO]: [clumps] Found status: BETA Current: 8.0.1 Target: 8.0.1
+[12:49:34] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:49:34] [main/WARN]: Assets URL 'union:/C:/Users/Cosmo/AppData/Roaming/.minecraft/server/libraries/net/minecraft/server/1.18-20211130.085255/server-1.18-20211130.085255-srg.jar%2349!/assets/.mcassetsroot' uses unexpected schema
+[12:49:34] [main/WARN]: Assets URL 'union:/C:/Users/Cosmo/AppData/Roaming/.minecraft/server/libraries/net/minecraft/server/1.18-20211130.085255/server-1.18-20211130.085255-srg.jar%2349!/data/.mcassetsroot' uses unexpected schema
+[12:49:34] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:49:34] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:49:34] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12:49:34] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12:49:34] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:49:34] [main/INFO]: Reloading ResourceManager: Default, terralith-v2-0-4.zip, VanillaTweaks_c945407.zip, bukkit, Amplified+Nether+1.0.1+_+Forge.jar, repurposed_structures_forge-4.0.5+1.18.jar, spark-forge.jar, forge-1.18-38.0.16-universal.jar, lazydfu-1.0-1.18+.jar, ferritecore-4.0.0-forge.jar, Clumps-forge-1.18-8.0.1.jar, AI-Improvements-1.18-0.4.0.jar
+[12:49:36] [Worker-Main-15/INFO]: Loaded 7 recipes
+[12:49:37] [Worker-Main-15/INFO]: Loaded 1172 advancements
+[12:49:39] [Server thread/INFO]: Starting minecraft server version 1.18
+[12:49:39] [Server thread/INFO]: Loading properties
+[12:49:39] [Server thread/INFO]: Default game type: SURVIVAL
+[12:49:39] [Server thread/INFO]: Generating keypair
+[12:49:39] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:49:39] [Server thread/INFO]: Using default channel type
+[12:49:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:49:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:49:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:49:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:49:39] [Server thread/INFO]: Preparing level "world"
+[12:49:39] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:49:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[12:49:40] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[12:49:40] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[12:49:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[12:49:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[12:49:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[12:49:42] [Worker-Main-5/INFO]: Preparing spawn area: 2%
+[12:49:43] [Worker-Main-8/INFO]: Preparing spawn area: 5%
+[12:49:43] [Netty Server IO #1/INFO]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[12:49:43] [Worker-Main-12/INFO]: Preparing spawn area: 7%
+[12:49:44] [Worker-Main-13/INFO]: Preparing spawn area: 8%
+[12:49:44] [Worker-Main-9/INFO]: Preparing spawn area: 13%
+[12:49:46] [Worker-Main-5/INFO]: Preparing spawn area: 13%
+[12:49:46] [Worker-Main-5/INFO]: Preparing spawn area: 13%
+[12:49:47] [Worker-Main-5/INFO]: Preparing spawn area: 40%
+[12:49:47] [Worker-Main-1/INFO]: Preparing spawn area: 40%
+[12:49:47] [Worker-Main-9/INFO]: Preparing spawn area: 40%
+[12:49:47] [Server thread/INFO]: Time elapsed: 7833 ms
+[12:49:47] [Server thread/INFO]: Done (8.080s)! For help, type "help"
+[12:49:52] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@24d5c111
+[12:49:52] [Server thread/INFO]: N4ns[/127.0.0.1:51784] logged in with entity id 87 at (403.21333379433617, 64.0, -4333.460172982059)
+[12:49:52] [Server thread/INFO]: N4ns joined the game
+[12:50:06] [Server thread/INFO]: [N4ns: Set own game mode to Spectator Mode]
+[12:50:08] [Server thread/INFO]: [N4ns: Set own game mode to Survival Mode]
+[12:50:31] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@28859db6
+[12:50:31] [Server thread/INFO]: AltrOmega[/5.173.12.10:58946] logged in with entity id 238 at (146.9909591642221, 75.0, -4410.013423776758)
+[12:50:31] [Server thread/INFO]: AltrOmega joined the game
+[12:53:47] [Server thread/INFO]: Named entity Horse['Yaotzin'/309, l='ServerLevel[world]', x=97.33, y=60.40, z=-4464.05] died: Yaotzin drowned
+[12:57:52] [Server thread/INFO]: AltrOmega has made the advancement [A Seedy Place]
+[13:01:39] [Server thread/INFO]: AltrOmega lost connection: Disconnected
+[13:01:39] [Server thread/INFO]: AltrOmega left the game
+[13:01:58] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@7d339a1d
+[13:01:58] [Server thread/INFO]: AltrOmega[/5.173.12.10:55547] logged in with entity id 3556 at (144.93309478937675, 64.0, -4436.739215460775)
+[13:01:58] [Server thread/INFO]: AltrOmega joined the game
+[13:04:29] [Server thread/INFO]: AltrOmega has made the advancement [Ice Bucket Challenge]
+[13:09:03] [Server thread/INFO]: N4ns lost connection: Disconnected
+[13:09:03] [Server thread/INFO]: N4ns left the game
+[13:25:11] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5f4eef2f
+[13:25:11] [Server thread/INFO]: N4ns[/127.0.0.1:52390] logged in with entity id 6083 at (383.6252102021253, 23.0, -4285.512499988079)
+[13:25:11] [Server thread/INFO]: N4ns joined the game
+[13:25:32] [Server thread/INFO]: [N4ns: Set own game mode to Spectator Mode]
+[13:25:35] [Server thread/INFO]: [N4ns: Set own game mode to Survival Mode]
+[13:25:39] [Server thread/INFO]: [N4ns: Set own game mode to Spectator Mode]
+[13:25:44] [Server thread/INFO]: [N4ns: Teleported N4ns to AltrOmega]
+[13:25:44] [Server thread/WARN]: N4ns moved too quickly! -262.2128212839609,13.008000000000003,-72.31765405291844
+[13:25:44] [Server thread/WARN]: N4ns moved too quickly! -262.2128212839609,13.008000000000003,-72.31765405291844
+[13:25:44] [Server thread/WARN]: N4ns moved too quickly! -262.2128212839609,13.008000000000003,-72.31765405291844
+[13:27:12] [Server thread/INFO]: <N4ns> ty
+[13:27:12] [Server thread/INFO]: AltrOmega has made the advancement [The Parrots and the Bats]
+[13:27:18] [Server thread/INFO]: <AltrOmega> ?
+[13:27:22] [Server thread/INFO]: <N4ns> mo?e porasz jak b?dzie wi?cej osób
+[13:27:27] [Server thread/INFO]: <N4ns> potrzebuje troche ramu do vm
+[13:27:32] [Server thread/INFO]: <AltrOmega> eh
+[13:27:34] [Server thread/INFO]: <AltrOmega> ok
+[13:27:48] [Server thread/INFO]: AltrOmega lost connection: Disconnected
+[13:27:48] [Server thread/INFO]: AltrOmega left the game
+[13:27:50] [Server thread/INFO]: N4ns lost connection: Disconnected
+[13:27:50] [Server thread/INFO]: N4ns left the game
+[13:27:52] [Server thread/INFO]: Stopping server
+[13:27:52] [Server thread/INFO]: Saving players
+[13:27:52] [Server thread/INFO]: Saving worlds
+[13:27:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:27:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[13:27:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[13:27:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:27:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:27:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:27:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
