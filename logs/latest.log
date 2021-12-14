@@ -1,121 +1,136 @@
-[12:49:27] [main/INFO]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 38.0.16, --fml.mcVersion, 1.18, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20211130.085255]
-[12:49:27] [main/INFO]: ModLauncher 9.0.7+91+master.8569cdf starting: java version 17.0.1 by Oracle Corporation
-[12:49:27] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Cosmo/AppData/Roaming/.minecraft/server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2318! Service=ModLauncher Env=SERVER
-[12:49:27] [main/INFO]: Found mod file AI-Improvements-1.18-0.4.0.jar of type MOD with locator {mods folder locator at C:\Users\Cosmo\AppData\Roaming\.minecraft\server\mods}
-[12:49:27] [main/INFO]: Found mod file Amplified+Nether+1.0.1+_+Forge.jar of type MOD with locator {mods folder locator at C:\Users\Cosmo\AppData\Roaming\.minecraft\server\mods}
-[12:49:27] [main/INFO]: Found mod file Clumps-forge-1.18-8.0.1.jar of type MOD with locator {mods folder locator at C:\Users\Cosmo\AppData\Roaming\.minecraft\server\mods}
-[12:49:27] [main/INFO]: Found mod file ferritecore-4.0.0-forge.jar of type MOD with locator {mods folder locator at C:\Users\Cosmo\AppData\Roaming\.minecraft\server\mods}
-[12:49:27] [main/INFO]: Found mod file lazydfu-1.0-1.18+.jar of type MOD with locator {mods folder locator at C:\Users\Cosmo\AppData\Roaming\.minecraft\server\mods}
-[12:49:27] [main/INFO]: Found mod file repurposed_structures_forge-4.0.5+1.18.jar of type MOD with locator {mods folder locator at C:\Users\Cosmo\AppData\Roaming\.minecraft\server\mods}
-[12:49:27] [main/INFO]: Found mod file spark-forge.jar of type MOD with locator {mods folder locator at C:\Users\Cosmo\AppData\Roaming\.minecraft\server\mods}
-[12:49:27] [main/INFO]: Found mod file fmlcore-1.18-38.0.16.jar of type LIBRARY with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4721d212
-[12:49:27] [main/INFO]: Found mod file javafmllanguage-1.18-38.0.16.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4721d212
-[12:49:27] [main/INFO]: Found mod file mclanguage-1.18-38.0.16.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4721d212
-[12:49:27] [main/INFO]: Found mod file server-1.18-20211130.085255-srg.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4721d212
-[12:49:27] [main/INFO]: Found mod file forge-1.18-38.0.16-universal.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4721d212
-[12:49:28] [main/INFO]: Sync_Fu preparing...
-[12:49:28] [main/INFO]: Prepping fu_add...
-[12:49:28] [main/WARN]: Failed to find FastUtil jar; this WILL result in more exceptions
-[12:49:28] [main/INFO]: Sync_Fu found fu...
-[12:49:28] [main/INFO]: Compatibility level set to JAVA_17
-[12:49:28] [main/ERROR]: Mixin config clumps.mixins.json does not specify "minVersion" property
-[12:49:28] [main/INFO]: Launching target 'forgeserver' with arguments []
-[12:49:31] [main/INFO]: Lazy DFU
-[12:49:32] [modloading-worker-0/INFO]: Loaded seedfix v1.0 by Justsnoopy30!
-[12:49:32] [modloading-worker-0/INFO]: Forge mod loading, version 38.0.16, for MC 1.18 with MCP 20211130.085255
-[12:49:32] [modloading-worker-0/INFO]: MinecraftForge v38.0.16 Initialized
-[12:49:33] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[12:49:33] [Forge Version Check/INFO]: [forge] Found status: BETA_OUTDATED Current: 38.0.16 Target: 38.0.17
-[12:49:33] [Forge Version Check/INFO]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.18
-[12:49:33] [Forge Version Check/INFO]: [clumps] Found status: BETA Current: 8.0.1 Target: 8.0.1
-[12:49:34] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[12:49:34] [main/WARN]: Assets URL 'union:/C:/Users/Cosmo/AppData/Roaming/.minecraft/server/libraries/net/minecraft/server/1.18-20211130.085255/server-1.18-20211130.085255-srg.jar%2349!/assets/.mcassetsroot' uses unexpected schema
-[12:49:34] [main/WARN]: Assets URL 'union:/C:/Users/Cosmo/AppData/Roaming/.minecraft/server/libraries/net/minecraft/server/1.18-20211130.085255/server-1.18-20211130.085255-srg.jar%2349!/data/.mcassetsroot' uses unexpected schema
-[12:49:34] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12:49:34] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12:49:34] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[12:49:34] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[12:49:34] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12:49:34] [main/INFO]: Reloading ResourceManager: Default, terralith-v2-0-4.zip, VanillaTweaks_c945407.zip, bukkit, Amplified+Nether+1.0.1+_+Forge.jar, repurposed_structures_forge-4.0.5+1.18.jar, spark-forge.jar, forge-1.18-38.0.16-universal.jar, lazydfu-1.0-1.18+.jar, ferritecore-4.0.0-forge.jar, Clumps-forge-1.18-8.0.1.jar, AI-Improvements-1.18-0.4.0.jar
-[12:49:36] [Worker-Main-15/INFO]: Loaded 7 recipes
-[12:49:37] [Worker-Main-15/INFO]: Loaded 1172 advancements
-[12:49:39] [Server thread/INFO]: Starting minecraft server version 1.18
-[12:49:39] [Server thread/INFO]: Loading properties
-[12:49:39] [Server thread/INFO]: Default game type: SURVIVAL
-[12:49:39] [Server thread/INFO]: Generating keypair
-[12:49:39] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:49:39] [Server thread/INFO]: Using default channel type
-[12:49:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:49:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[12:49:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12:49:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:49:39] [Server thread/INFO]: Preparing level "world"
-[12:49:39] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:49:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[12:49:40] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[12:49:40] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[12:49:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:49:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:49:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:49:42] [Worker-Main-5/INFO]: Preparing spawn area: 2%
-[12:49:43] [Worker-Main-8/INFO]: Preparing spawn area: 5%
-[12:49:43] [Netty Server IO #1/INFO]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
-[12:49:43] [Worker-Main-12/INFO]: Preparing spawn area: 7%
-[12:49:44] [Worker-Main-13/INFO]: Preparing spawn area: 8%
-[12:49:44] [Worker-Main-9/INFO]: Preparing spawn area: 13%
-[12:49:46] [Worker-Main-5/INFO]: Preparing spawn area: 13%
-[12:49:46] [Worker-Main-5/INFO]: Preparing spawn area: 13%
-[12:49:47] [Worker-Main-5/INFO]: Preparing spawn area: 40%
-[12:49:47] [Worker-Main-1/INFO]: Preparing spawn area: 40%
-[12:49:47] [Worker-Main-9/INFO]: Preparing spawn area: 40%
-[12:49:47] [Server thread/INFO]: Time elapsed: 7833 ms
-[12:49:47] [Server thread/INFO]: Done (8.080s)! For help, type "help"
-[12:49:52] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@24d5c111
-[12:49:52] [Server thread/INFO]: N4ns[/127.0.0.1:51784] logged in with entity id 87 at (403.21333379433617, 64.0, -4333.460172982059)
-[12:49:52] [Server thread/INFO]: N4ns joined the game
-[12:50:06] [Server thread/INFO]: [N4ns: Set own game mode to Spectator Mode]
-[12:50:08] [Server thread/INFO]: [N4ns: Set own game mode to Survival Mode]
-[12:50:31] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@28859db6
-[12:50:31] [Server thread/INFO]: AltrOmega[/5.173.12.10:58946] logged in with entity id 238 at (146.9909591642221, 75.0, -4410.013423776758)
-[12:50:31] [Server thread/INFO]: AltrOmega joined the game
-[12:53:47] [Server thread/INFO]: Named entity Horse['Yaotzin'/309, l='ServerLevel[world]', x=97.33, y=60.40, z=-4464.05] died: Yaotzin drowned
-[12:57:52] [Server thread/INFO]: AltrOmega has made the advancement [A Seedy Place]
-[13:01:39] [Server thread/INFO]: AltrOmega lost connection: Disconnected
-[13:01:39] [Server thread/INFO]: AltrOmega left the game
-[13:01:58] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@7d339a1d
-[13:01:58] [Server thread/INFO]: AltrOmega[/5.173.12.10:55547] logged in with entity id 3556 at (144.93309478937675, 64.0, -4436.739215460775)
-[13:01:58] [Server thread/INFO]: AltrOmega joined the game
-[13:04:29] [Server thread/INFO]: AltrOmega has made the advancement [Ice Bucket Challenge]
-[13:09:03] [Server thread/INFO]: N4ns lost connection: Disconnected
-[13:09:03] [Server thread/INFO]: N4ns left the game
-[13:25:11] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5f4eef2f
-[13:25:11] [Server thread/INFO]: N4ns[/127.0.0.1:52390] logged in with entity id 6083 at (383.6252102021253, 23.0, -4285.512499988079)
-[13:25:11] [Server thread/INFO]: N4ns joined the game
-[13:25:32] [Server thread/INFO]: [N4ns: Set own game mode to Spectator Mode]
-[13:25:35] [Server thread/INFO]: [N4ns: Set own game mode to Survival Mode]
-[13:25:39] [Server thread/INFO]: [N4ns: Set own game mode to Spectator Mode]
-[13:25:44] [Server thread/INFO]: [N4ns: Teleported N4ns to AltrOmega]
-[13:25:44] [Server thread/WARN]: N4ns moved too quickly! -262.2128212839609,13.008000000000003,-72.31765405291844
-[13:25:44] [Server thread/WARN]: N4ns moved too quickly! -262.2128212839609,13.008000000000003,-72.31765405291844
-[13:25:44] [Server thread/WARN]: N4ns moved too quickly! -262.2128212839609,13.008000000000003,-72.31765405291844
-[13:27:12] [Server thread/INFO]: <N4ns> ty
-[13:27:12] [Server thread/INFO]: AltrOmega has made the advancement [The Parrots and the Bats]
-[13:27:18] [Server thread/INFO]: <AltrOmega> ?
-[13:27:22] [Server thread/INFO]: <N4ns> mo?e porasz jak b?dzie wi?cej osób
-[13:27:27] [Server thread/INFO]: <N4ns> potrzebuje troche ramu do vm
-[13:27:32] [Server thread/INFO]: <AltrOmega> eh
-[13:27:34] [Server thread/INFO]: <AltrOmega> ok
-[13:27:48] [Server thread/INFO]: AltrOmega lost connection: Disconnected
-[13:27:48] [Server thread/INFO]: AltrOmega left the game
-[13:27:50] [Server thread/INFO]: N4ns lost connection: Disconnected
-[13:27:50] [Server thread/INFO]: N4ns left the game
-[13:27:52] [Server thread/INFO]: Stopping server
-[13:27:52] [Server thread/INFO]: Saving players
-[13:27:52] [Server thread/INFO]: Saving worlds
-[13:27:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[13:27:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[13:27:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[13:27:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13:27:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:27:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:27:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:05:45] [main/INFO]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 38.0.16, --fml.mcVersion, 1.18, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20211130.085255]
+[19:05:45] [main/INFO]: ModLauncher 9.0.7+91+master.8569cdf starting: java version 17.0.1 by Oracle Corporation
+[19:05:45] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Cosmo/AppData/Roaming/.minecraft/server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2318! Service=ModLauncher Env=SERVER
+[19:05:46] [main/INFO]: Found mod file AI-Improvements-1.18-0.4.0.jar of type MOD with locator {mods folder locator at C:\Users\Cosmo\AppData\Roaming\.minecraft\server\mods}
+[19:05:46] [main/INFO]: Found mod file Amplified+Nether+1.0.1+_+Forge.jar of type MOD with locator {mods folder locator at C:\Users\Cosmo\AppData\Roaming\.minecraft\server\mods}
+[19:05:46] [main/INFO]: Found mod file Clumps-forge-1.18-8.0.1.jar of type MOD with locator {mods folder locator at C:\Users\Cosmo\AppData\Roaming\.minecraft\server\mods}
+[19:05:46] [main/INFO]: Found mod file ferritecore-4.0.0-forge.jar of type MOD with locator {mods folder locator at C:\Users\Cosmo\AppData\Roaming\.minecraft\server\mods}
+[19:05:46] [main/INFO]: Found mod file lazydfu-1.0-1.18+.jar of type MOD with locator {mods folder locator at C:\Users\Cosmo\AppData\Roaming\.minecraft\server\mods}
+[19:05:46] [main/INFO]: Found mod file repurposed_structures_forge-4.0.5+1.18.jar of type MOD with locator {mods folder locator at C:\Users\Cosmo\AppData\Roaming\.minecraft\server\mods}
+[19:05:46] [main/INFO]: Found mod file spark-forge.jar of type MOD with locator {mods folder locator at C:\Users\Cosmo\AppData\Roaming\.minecraft\server\mods}
+[19:05:46] [main/INFO]: Found mod file fmlcore-1.18-38.0.16.jar of type LIBRARY with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4721d212
+[19:05:46] [main/INFO]: Found mod file javafmllanguage-1.18-38.0.16.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4721d212
+[19:05:46] [main/INFO]: Found mod file mclanguage-1.18-38.0.16.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4721d212
+[19:05:46] [main/INFO]: Found mod file server-1.18-20211130.085255-srg.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4721d212
+[19:05:46] [main/INFO]: Found mod file forge-1.18-38.0.16-universal.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4721d212
+[19:05:46] [main/INFO]: Sync_Fu preparing...
+[19:05:46] [main/INFO]: Prepping fu_add...
+[19:05:46] [main/WARN]: Failed to find FastUtil jar; this WILL result in more exceptions
+[19:05:46] [main/INFO]: Sync_Fu found fu...
+[19:05:47] [main/INFO]: Compatibility level set to JAVA_17
+[19:05:47] [main/ERROR]: Mixin config clumps.mixins.json does not specify "minVersion" property
+[19:05:47] [main/INFO]: Launching target 'forgeserver' with arguments []
+[19:05:49] [main/INFO]: Lazy DFU
+[19:05:51] [modloading-worker-0/INFO]: Loaded seedfix v1.0 by Justsnoopy30!
+[19:05:51] [modloading-worker-0/INFO]: Forge mod loading, version 38.0.16, for MC 1.18 with MCP 20211130.085255
+[19:05:51] [modloading-worker-0/INFO]: MinecraftForge v38.0.16 Initialized
+[19:05:51] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[19:05:52] [Forge Version Check/INFO]: [forge] Found status: BETA_OUTDATED Current: 38.0.16 Target: 38.0.17
+[19:05:52] [Forge Version Check/INFO]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.18
+[19:05:52] [Forge Version Check/INFO]: [clumps] Found status: BETA Current: 8.0.1 Target: 8.0.1
+[19:05:52] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:05:52] [main/WARN]: Assets URL 'union:/C:/Users/Cosmo/AppData/Roaming/.minecraft/server/libraries/net/minecraft/server/1.18-20211130.085255/server-1.18-20211130.085255-srg.jar%2349!/assets/.mcassetsroot' uses unexpected schema
+[19:05:52] [main/WARN]: Assets URL 'union:/C:/Users/Cosmo/AppData/Roaming/.minecraft/server/libraries/net/minecraft/server/1.18-20211130.085255/server-1.18-20211130.085255-srg.jar%2349!/data/.mcassetsroot' uses unexpected schema
+[19:05:53] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19:05:53] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19:05:53] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[19:05:53] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[19:05:53] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19:05:53] [main/INFO]: Reloading ResourceManager: Default, terralith-v2-0-4.zip, VanillaTweaks_c945407.zip, bukkit, Amplified+Nether+1.0.1+_+Forge.jar, repurposed_structures_forge-4.0.5+1.18.jar, spark-forge.jar, forge-1.18-38.0.16-universal.jar, lazydfu-1.0-1.18+.jar, ferritecore-4.0.0-forge.jar, Clumps-forge-1.18-8.0.1.jar, AI-Improvements-1.18-0.4.0.jar
+[19:05:54] [Worker-Main-15/INFO]: Loaded 7 recipes
+[19:05:55] [Worker-Main-15/INFO]: Loaded 1172 advancements
+[19:05:57] [main/INFO]: Injecting existing registry data into this CLIENT instance
+[19:05:58] [Server thread/INFO]: Starting minecraft server version 1.18
+[19:05:58] [Server thread/INFO]: Loading properties
+[19:05:58] [Server thread/INFO]: Default game type: SURVIVAL
+[19:05:58] [Server thread/INFO]: Generating keypair
+[19:05:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:05:58] [Server thread/INFO]: Using default channel type
+[19:05:58] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:05:58] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:05:58] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:05:58] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:05:58] [Server thread/INFO]: Preparing level "world"
+[19:05:58] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:05:59] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[19:05:59] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[19:05:59] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[19:06:00] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[19:06:00] [Worker-Main-6/INFO]: Preparing spawn area: 1%
+[19:06:01] [Worker-Main-2/INFO]: Preparing spawn area: 4%
+[19:06:01] [Worker-Main-14/INFO]: Preparing spawn area: 5%
+[19:06:02] [Worker-Main-1/INFO]: Preparing spawn area: 10%
+[19:06:02] [Worker-Main-4/INFO]: Preparing spawn area: 24%
+[19:06:03] [Worker-Main-11/INFO]: Preparing spawn area: 54%
+[19:06:03] [Worker-Main-14/INFO]: Preparing spawn area: 92%
+[19:06:03] [Server thread/INFO]: Time elapsed: 5291 ms
+[19:06:03] [Server thread/INFO]: Done (5.535s)! For help, type "help"
+[19:06:13] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@2c2aa4cb
+[19:06:13] [Server thread/INFO]: Aroolfie[/83.11.106.213:63857] logged in with entity id 72 at (147.23568398266798, 75.0, -4412.119996223672)
+[19:06:13] [Server thread/INFO]: Aroolfie joined the game
+[19:10:53] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@774a67ea
+[19:10:53] [Server thread/INFO]: AltrOmega[/5.173.12.10:58534] logged in with entity id 625 at (147.12414608108912, 75.0, -4412.539967376837)
+[19:10:53] [Server thread/INFO]: AltrOmega joined the game
+[19:11:05] [Server thread/INFO]: <Aroolfie> what's so funny about sussus amogus?
+[19:14:07] [Server thread/INFO]: <AltrOmega> k
+[19:15:25] [Server thread/INFO]: <AltrOmega> ale tylko do tej?
+[19:15:30] [Server thread/INFO]: <Aroolfie> tak
+[19:15:32] [Server thread/INFO]: <AltrOmega> nie rpzejd? dalej do nie posort
+[19:15:33] [Server thread/INFO]: <AltrOmega> meh
+[19:15:34] [Server thread/INFO]: <AltrOmega> k
+[19:15:35] [Server thread/INFO]: <Aroolfie> still du?e u?atwienie
+[19:15:44] [Server thread/INFO]: <Aroolfie> nie mamy jak tego posortowa? bez zesrania si?
+[19:15:45] [Server thread/INFO]: <AltrOmega> i gues
+[19:16:24] [Server thread/INFO]: <Aroolfie> i na dole nie ma ?adnych skrzynek bo wszystko porozk?ada?em
+[19:18:46] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@4f0e85a
+[19:18:46] [Server thread/INFO]: mihu2[/83.20.221.169:31312] logged in with entity id 1304 at (386.69999998807907, 77.0, -4558.902902904604)
+[19:18:46] [Server thread/INFO]: mihu2 joined the game
+[19:18:49] [Server thread/INFO]: <mihu2> balls
+[19:18:50] [Server thread/INFO]: mihu2 lost connection: Disconnected
+[19:18:50] [Server thread/INFO]: mihu2 left the game
+[19:19:47] [Server thread/WARN]: Yaotzin (vehicle of Aroolfie) moved wrongly! 0.25454589791971005
+[19:23:09] [Server thread/WARN]: Yaotzin (vehicle of Aroolfie) moved wrongly! 0.35254574368173053
+[19:34:52] [Server thread/INFO]: AltrOmega lost connection: Disconnected
+[19:34:52] [Server thread/INFO]: AltrOmega left the game
+[20:14:15] [Server thread/INFO]: [Server] w sumie nie nudzi ci sie tak samemu?
+[20:14:29] [Server thread/INFO]: [Server] bo wiem ?e mo?na gra? tak na chillku
+[20:14:40] [Server thread/INFO]: [Server] ale nie lepiej by?oby w?a?nie wtedy solo?
+[20:14:52] [Server thread/INFO]: [Server] btw create dla 1.18 wysz?o
+[20:15:30] [Server thread/INFO]: [Server] bo np teraz jest te 45 ms per tick
+[20:15:56] [Server thread/INFO]: <Aroolfie> nie, nie nudzi
+[20:15:59] [Server thread/INFO]: <Aroolfie> lubi? budowa?
+[20:16:09] [Server thread/INFO]: <Aroolfie> A mam motywacj? na serverze
+[20:16:12] [Server thread/INFO]: <Aroolfie> bo jakby inni to widz? xD
+[20:16:48] [Server thread/INFO]: <Aroolfie> Jak chcesz tu wpuszcza? mody to create b?dzie super
+[20:17:07] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[20:17:07] [Server thread/INFO]: ci?gle sie zastanawiam<--[HERE]
+[20:17:14] [Server thread/INFO]: [Server] ci?gle sie zastanawiam
+[20:17:19] [Server thread/INFO]: [Server] bo ma?o osób gra
+[20:17:28] [Server thread/INFO]: <Aroolfie> teraz jest zapierdol z nauk? after all
+[20:17:34] [Server thread/INFO]: [Server] a ja bym ch?tnie wróci? do robienia pluginów
+[20:17:43] [Server thread/INFO]: [Server] a wtedy wolny ram i port by sie przyda?
+[20:17:53] [Server thread/INFO]: [Server] true, zobaczymy na wolnym
+[20:18:01] [Server thread/INFO]: <Aroolfie> czyli considerujesz zostawnienie servera?
+[20:18:31] [Server thread/INFO]: [Server] tja
+[20:18:42] [Server thread/INFO]: [Server] wrzucenie go na githuba i mo?e wrócenie kiedy?
+[20:18:44] [Server thread/INFO]: <Aroolfie> to jakby? mi pomóg? ogarn?? te porty itp to ja mog? hostowa?
+[20:18:45] [Server thread/INFO]: [Server] 44ms
+[20:18:56] [Server thread/INFO]: [Server] k
+[20:19:08] [Server thread/INFO]: [Server] ja mam matme i niemiecki do ogarni?cia
+[20:19:13] [Server thread/INFO]: <Aroolfie> ok, a ja w?a?nie lec?
+[20:19:19] [Server thread/INFO]: [Server] po tym moge pomaga? ile sie da
+[20:19:23] [Server thread/INFO]: [Server] cy@
+[20:19:24] [Server thread/INFO]: <Aroolfie> tak?e mo?esz wys?a? mi server i pomo?esz mi kiedy?
+[20:19:27] [Server thread/INFO]: <Aroolfie> papa
+[20:19:29] [Server thread/INFO]: Aroolfie lost connection: Disconnected
+[20:19:29] [Server thread/INFO]: Aroolfie left the game
+[20:19:30] [Server thread/INFO]: Stopping server
+[20:19:30] [Server thread/INFO]: Saving players
+[20:19:30] [Server thread/INFO]: Saving worlds
+[20:19:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:19:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20:19:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20:19:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:19:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:19:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:19:30] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
